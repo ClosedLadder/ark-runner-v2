@@ -1,0 +1,23 @@
+{
+  "name": "ark-runner-v2",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "ARK RUNNER v2 — procedural Three.js expedition truck and preview harness.",
+  "license": "MIT",
+  "author": "Steven Haller",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5179 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "shoot": "node capture.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.170.0",
+    "puppeteer-core": "23.6.0",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}
